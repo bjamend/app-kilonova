@@ -112,7 +112,7 @@ impl InitialModel for HaloKilonova {
                     velocity_r: 0.0,
                     velocity_q: 0.0,
                     mass_density: d,
-                    gas_pressure: p,
+                    gas_pressure: p / LIGHT_SPEED / LIGHT_SPEED,
                 }
             })
 
